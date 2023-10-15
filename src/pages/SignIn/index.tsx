@@ -1,8 +1,8 @@
-import React from 'react';
+import { Container, Box } from '@mui/material';
 
 const SignInPage = () => {
   return (
-    <main>
+    <Container maxWidth='sm'>
       <h1>Sign In</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A, asperiores
@@ -10,7 +10,7 @@ const SignInPage = () => {
         adipisci vitae fugit at iure omnis, porro eveniet optio non, placeat
         quam.
       </p>
-    </main>
+    </Container>
   );
 };
 
